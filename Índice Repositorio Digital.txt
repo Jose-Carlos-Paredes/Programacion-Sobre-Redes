@@ -25,4 +25,6 @@ En el punto 5 que era en forma digital y teníamos que modificar el código para
 
   • Ubicación: /Ejercicios/Tarea_Procedimientos_y_Paremetrizacion.
 
-•26/03/2026: Trabajo Práctico: Análisis y Adaptación de Código en Processing.
+•08/04/2026: Geometria Algoritmica y Estructuras de Repeticion.
+
+ • Descripción: Tuvimos que.
