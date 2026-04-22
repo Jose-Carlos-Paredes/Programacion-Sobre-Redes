@@ -16,7 +16,7 @@ void draw() {
     }
   }
 
-  fill(0, 255, 150);
+  fill(0, 0, 255);
   for (int i = 0; i < cant; i++) {
     float x = i * anchoBarra;
     float y = height - alturas[i];
