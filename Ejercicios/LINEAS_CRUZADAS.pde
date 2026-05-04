@@ -1,27 +1,18 @@
 //Caso 2:
-int cant = 5; 
-float[] puntosX = new float[cant];
+int cant = 10;
+float sep;
 
 void setup() {
-  size(800, 600);
-  
-
-  for (int i = 0; i < cant; i++) {
-
-    puntosX[i] = map(i, 0, cant - 1, 0, width);
-  }
+  size(900, 600);
+  sep=width/cant;
 }
 
 void draw() {
-  background(255);
-  stroke(0);
-  
-  for (int i = 0; i < cant; i++) {
-    for (int j = 0; j < cant; j++) {
-    
-      line(puntosX[i], 0, puntosX[j], height);
+  for (int J=0; J<cant; J++) {
+    float xfin=sep*J;
+    for (int i=0; i<cant; i++) {
+      float xsal=sep*i;
+      line (xsal, 0, xfin, height);
     }
   }
-  
-  noLoop(); 
 }
